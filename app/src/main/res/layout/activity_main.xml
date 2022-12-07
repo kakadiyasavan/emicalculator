@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EMI Loan Calculator"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/la"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="  Loan Amount  "
+        android:textSize="35dp"
+        android:backgroundTint="#0F0227"/>
+
+    <EditText
+        android:id="@+id/ltm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Loan Tenure Month"
+        android:textSize="35dp"
+        android:backgroundTint="#072939"/>
+
+    <EditText
+        android:id="@+id/ir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="    Interest Rate   "
+        android:textSize="35dp"
+        android:backgroundTint="#072939"/>
+
+    <Button
+        android:id="@+id/total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate"
+        android:backgroundTint="#22064A"
+        android:textSize="20dp"/>
+
+</LinearLayout>
